@@ -1,0 +1,127 @@
+/*
+Auther: Gayathri S
+Date:17/12/2021*/
+*{
+	padding: 0;
+	margin:0;
+}
+body{
+	background-color: #333;
+}
+.firstblock {
+	text-align: center;
+	color: #fff;
+	margin-top: 100px;
+	/*height: 50vh;*/
+
+}
+.firstblock h1{
+	font-size: 40px;
+}
+.firstblock p{
+	font-size: 20px;
+	padding-top: 15px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+
+}
+.firstblock a{
+	border:2px solid #00f;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	padding: 20px;
+	border-radius: 4px;
+	color: #00f;
+}
+.firstblock a:hover{
+	background-color: #00f;
+	color: #fff;
+}
+/*first section ended*/
+/*second section started*/
+.secondblock{
+	background-color: #fff;
+	/*height: 50vh;*/
+	text-align: center;
+}
+.secondblock h1{
+	padding-top: 100px;
+	margin-bottom: 15px
+
+}
+.secondblock p{
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
+}
+/*second section ended*/
+/*third section started*/
+.thirdblock{
+	display: inline-flex;
+	position: relative;
+	/*height: 55vh;*/
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+.thirdblock .col{
+	background-color: #fff;
+	border:solid;
+	border-radius: 8px;
+	width:25%;
+	height: 75%;
+	position: relative;
+	margin:auto;
+	padding:20px;
+
+}
+.col img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.col p{
+	padding-bottom: 15px;
+	text-align: center;
+}
+.col h2{
+	padding:10px;
+	text-align: center;
+}
+/*third section ended*/
+/*fifth section started*/
+.fifthblock{
+	/*height: 50vh;*/
+	display: inline-flex;
+	margin: 0;
+}
+.fifthblock .subblockone{
+	background-color: #0D6EFD;
+	text-align: center;
+	padding-top: 100px;
+	width: 50%;
+}
+.subblockone p,.subblocktwo p{
+	font-size: 20px;
+	margin: 10px;
+}
+.subblockone h1,.subblocktwo h1{
+	font-size: 40px;
+}
+.fifthblock .subblocktwo{
+	background-color: #333;
+	text-align: center;
+	padding-top: 100px;
+	width: 50%;
+	color: white;
+
+}
+/*fifth section ended*/
